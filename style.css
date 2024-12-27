@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins';
+    justify-content: center;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+
+}
+button {
+    font-family: 'Poppins';
+}
+
+.todo-grid,.todo-input-grid {
+    display:grid;
+    grid-template-columns: 30px 200px 150px 100px;
+    column-gap: 40px;
+    row-gap: 13px;
+    /* VERTICAL ALIGNMENT*/
+    align-items: center;
+    justify-content: center;
+    
+}
+.serial-number-input {
+    padding: none;
+}
+.todo-input-grid {
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+
+.name-input , .date-input{
+    background-color: rgba(255, 255, 255, 0.304);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.add-todo-button {
+    background-color: rgb(90, 187, 106);
+    color: white;
+    border:none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.delete-todo-button {
+    background-color: rgb(201, 47, 47);
+    color:white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
